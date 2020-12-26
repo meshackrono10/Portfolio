@@ -1,0 +1,26 @@
+nav {
+  width: 100%;
+}
+.nav_link {
+  justify-content: center;
+}
+.nav_link h2 {
+  text-align: center;
+}
+.app_dropdown {
+  display: none;
+  height: 0;
+  overflow: hidden;
+}
+.app_container {
+  min-height: 100vh;
+}
+.nav_link {
+  color: white;
+}
+@media only screen and (max-width: 800px) {
+  .app_dropdown {
+    display: flex;
+    flex-direction: column;
+  }
+}
